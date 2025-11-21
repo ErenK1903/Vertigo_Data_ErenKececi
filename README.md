@@ -252,7 +252,8 @@ Weighted by install counts.
 - Higher retention  
 - Significantly higher ARPU  
 - Outperform Android across all segments  
-
+<img width="1756" height="968" alt="image" src="https://github.com/user-attachments/assets/c4045c55-e771-4883-bc33-aec10c7a4212" />
+<img width="1758" height="982" alt="image" src="https://github.com/user-attachments/assets/3eda2c04-4c97-48f2-b2ad-83f59530c1ab" />
 
 ---
 
