@@ -4,7 +4,7 @@
 
 ---
 
-# 📌 Overview
+#  Overview
 
 This repository contains my complete solution to the two-part Vertigo Games Data Analyst Case Study:
 
@@ -15,9 +15,9 @@ All work is implemented in modular Jupyter Notebooks and uses reproducible data 
 
 ---
 
-# 🧪 *TASK 1 — A/B Test Modeling & Simulation*
+#  *TASK 1 — A/B Test Modeling & Simulation*
 
-## 🎯 Purpose of Task 1
+##  Purpose of Task 1
 The goal is to model player retention and revenue for two variants (*A* and *B*) receiving identical daily installs. Using the provided retention, purchase, impression, and eCPM inputs, I simulate:
 
 - Daily Active Users (DAU)
@@ -30,7 +30,7 @@ The analysis answers questions (a)–(f) as requested.
 
 ---
 
-# 🧠 Methodology (Task 1)
+# Methodology (Task 1)
 
 ### *Retention Modeling*
 - Raw retention values provided for *D1, D3, D7, D14*
@@ -73,7 +73,7 @@ From Day 20 onward:
 
 ---
 
-# 🔍 Assumptions (Task 1)
+#  Assumptions (Task 1)
 - ARPPU constant across both variants  
 - Retention interpolation is representative of real decay  
 - No seasonality or install irregularities  
@@ -82,7 +82,7 @@ From Day 20 onward:
 
 ---
 
-# 📊 Key Findings (Task 1)
+#  Key Findings (Task 1)
 
 ## *(a) Which variant has the most Day 15 DAU?*  
 ✔ *Winner: Variant B*  
@@ -131,7 +131,7 @@ From Day 20 onward:
 ---
 
 ## *(f) If only one change can be made, which should be prioritized?*  
-### ⭐ *Prioritize the new permanent user source*  
+###  *Prioritize the new permanent user source*  
 - The sale gives a temporary boost  
 - A new user source gives:
   - Permanent DAU growth  
@@ -142,14 +142,13 @@ From Day 20 onward:
 ---
 
 # 📁 Task 1 Artifacts
-- Vertigo_Task1_all.ipynb — full simulation  
-- /charts — all visualizations  
+- Vertigo_Task1_all.ipynb — full simulation   
 
 ---
 
-# 🧪 *TASK 2 — User Behavior & Monetization Analysis*
+#  *TASK 2 — User Behavior & Monetization Analysis*
 
-## 🎯 Purpose of Task 2
+##  Purpose of Task 2
 Using 30 days of daily player logs (16 .csv.gz files), the objective is to understand:
 
 - Engagement patterns  
@@ -165,7 +164,7 @@ This analysis provides actionable insights for Product, Growth, and Monetization
 
 ---
 
-# 🧠 Methodology (Task 2)
+#  Methodology (Task 2)
 
 ### *2.1 Data Preparation*
 - Merged 16 compressed datasets  
@@ -228,7 +227,7 @@ Weighted by install counts.
 
 ---
 
-# 🔍 Assumptions (Task 2)
+#  Assumptions (Task 2)
 - Retention computed on lifecycle (days_since_install)  
 - Revenue = IAP + ad  
 - Win-rate quartiles define skill  
@@ -238,7 +237,7 @@ Weighted by install counts.
 
 ---
 
-# 📊 Key Findings (Task 2)
+#  Key Findings (Task 2)
 
 ### *1. First-day engagement predicts long-term value*
 - High D1 users generate *2–3× more revenue*
@@ -294,13 +293,8 @@ Weighted by install counts.
 
 ---
 
-# 🖼️ Included Visuals
-(Add screenshots to /images folder)
-- Retention curves  
-- Revenue distribution  
-- Country heatmaps  
-- Skill heatmaps  
-- Conversion funnel graph  
+# 📁 Task 1 Artifacts
+- Vertigo_Task2_All.ipynb — full simulation  
 
 ---
 
