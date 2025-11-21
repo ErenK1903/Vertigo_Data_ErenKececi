@@ -293,19 +293,19 @@ Weighted by install counts.
 
 ---
 
-# 📁 Task 1 Artifacts
+#  Task 1 Artifacts
 - Vertigo_Task2_All.ipynb — full simulation  
 
 ---
 
-# 🚀 Release Version
+# Release Version
 Final submission is tagged as:
 
 *v1.0*
 
 ---
 
-# 🎉 Thank You
+#  Thank You
 This repository reflects my full end-to-end analytics workflow:  
 retention modeling, monetization simulation, segmentation, cohort analysis, and actionable insights for real-world game optimization.
 
